@@ -1,0 +1,8 @@
+baseURL = ''
+languageCode = 'es-ES'
+title = 'Excursión a los Picos de Europa, 2021'
+theme = 'basic'
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

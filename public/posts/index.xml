@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Excursión a los Picos de Europa, 2021</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on Excursión a los Picos de Europa, 2021</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <lastBuildDate>Sun, 26 Jun 2022 15:45:11 +0100</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dia1post</title>
+      <link>/posts/dia1post/</link>
+      <pubDate>Sun, 26 Jun 2022 15:45:11 +0100</pubDate>
+      
+      <guid>/posts/dia1post/</guid>
+      <description>Dia 1 20 agosto 2021 empezamos la ruta desde poncebos
+cabras el primer tramo sube bastante. Vamos muy por encima del nivel de rio
+y en este tramo, el camino a veces no está muy facil para caminar
+tras una hora aprox, llegamos a la cima: Los Collados. a partir de aquí es una bajada larga y bastante gradual hasta cain
+ahi se ve como es el camino que nos queda</description>
+    </item>
+    
+    <item>
+      <title>Second</title>
+      <link>/posts/second/</link>
+      <pubDate>Sun, 26 Jun 2022 15:38:29 +0100</pubDate>
+      
+      <guid>/posts/second/</guid>
+      <description>h1 tag paragraph in html</description>
+    </item>
+    
+    <item>
+      <title>First</title>
+      <link>/posts/first/</link>
+      <pubDate>Sun, 26 Jun 2022 15:35:11 +0100</pubDate>
+      
+      <guid>/posts/first/</guid>
+      <description>h1 in first post paragraph in first post</description>
+    </item>
+    
+  </channel>
+</rss>
