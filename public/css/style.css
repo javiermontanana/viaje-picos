@@ -1,0 +1,78 @@
+/* 
+for big comments 
+https://codepen.io/sakri/pen/AXvBmw
+*/
+
+:root {
+	--color-light-grey-bg: #eeeeee; /* for main bg and buttons! */
+	--color-dark-blue-bg: #1e3553; /* for header and footer bg */
+	--color-light-blue-bg: #cdd9e0; /* for widget calendar and contact form */
+
+	--clr-bg-header-footer: var(--color-dark-blue-bg);
+	--clr-bg-header: var(--clr-bg-header-footer);
+	--clr-bg-footer: var(--clr-bg-header-footer);
+	--clr-bg-main: var(--color-light-grey-bg);
+	--clr-bg-main-btn: var(--clr-bg-main);
+	--clr-bg-card: var(--color-light-blue-bg);
+	
+	--clr-header: white; 
+	--clr-footer: #cdd9e0; 
+	--clr-main: black;
+	--clr-h1: var(--color-dark-blue-bg); 
+	--clr-main-links: #2828e6;
+	--clr-main-btn: #192b43;
+	
+	--ff-body: 'Roboto'; 
+	--ff-headings: 'Bodoni moda';
+	--ff-header-nav: 'Open sans'; 
+
+}
+
+
+/* standard preliminarie */
+
+* {
+	box-sizing: border-box;
+}
+
+body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, figure {
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+
+
+
+.container{
+	width: 90%;
+	max-width: 1024px;
+	margin: 0 auto;
+	position: relative;
+}
+
+
+
+/* main font families */
+
+body{
+	font-family: var(--ff-body);
+	font-size: 16px;
+	background-color: var(--clr-bg-main);
+}
+
+.header .logo, 
+h1, h2, h3, h4 {
+	font-family: var(--ff-headings);
+}
+
