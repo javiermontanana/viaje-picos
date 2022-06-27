@@ -47,10 +47,13 @@ img {
 
 a {
 	text-decoration: none;
+	color: black;
+	font-weight: bold;
 }
 
 ul, ol {
 	list-style: none;
+	padding: 0;
 }
 
 
@@ -61,15 +64,18 @@ ul, ol {
 	max-width: 1024px;
 	margin: 0 auto;
 	position: relative;
-    border: red dotted 2px;
+    /* border: red dotted 2px; */
 }
 
 figure {
-    border: black dotted 4px;
+    /* border: black dotted 4px; */
     margin: 3rem 0;
     font-size: 0;
     text-align: center;
     /* display: inline-block; */
+}
+.site-title {
+	padding: 1em 0;
 }
 
 figcaption {
@@ -86,12 +92,19 @@ body{
 	background-color: var(--clr-bg-main);
 }
 
-.header .logo, 
 h1, h2, h3, h4 {
 	font-family: var(--ff-headings);
+	text-align: center;
 }
 
+header {
+	padding: 3rem 0;
+}
 
+footer {
+	text-align: right;
+	padding: 2em 0;
+}
 
 .x2 img,
 img.x2 {
@@ -108,4 +121,26 @@ img.x3 {
 }
 .port {
     width: 34.5% !important;
+}
+
+
+
+.home-grid {
+	display: grid;
+	/* grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr; */
+	grid-template-columns: [col1] 33% [col2] 33% [col3] 33%;
+	/* grid-gap: 10px; */
+	grid-template-rows: [row1] 47% [row2] 47%;
+}
+
+.day-cover {
+	padding: 10px;
+}
+
+
+.nav__list {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
