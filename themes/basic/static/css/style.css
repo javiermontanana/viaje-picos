@@ -11,7 +11,7 @@ https://codepen.io/sakri/pen/AXvBmw
 	--clr-bg-header-footer: var(--color-dark-blue-bg);
 	--clr-bg-header: var(--clr-bg-header-footer);
 	--clr-bg-footer: var(--clr-bg-header-footer);
-	--clr-bg-main: var(--color-light-grey-bg);
+	--clr-bg-main: #dbca91;
 	--clr-bg-main-btn: var(--clr-bg-main);
 	--clr-bg-card: var(--color-light-blue-bg);
 	
@@ -117,10 +117,10 @@ img.x3 {
 }
 
 .lands {
-    width: 61.5%;
+    width: 61.5% !important;
 }
 .port {
-    width: 34.5%;
+    width: 34.5% !important;
 }
 
 
@@ -167,7 +167,7 @@ Objec-fit cover keeps the image in proportion showing only the middle.
 @media (max-width: 700px) {
 	
 	img, .port, .lands {
-		width: 100%;
+		width: 100% !important;
 		margin: 1% 0;
 	}
 
