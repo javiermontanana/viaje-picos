@@ -60,7 +60,7 @@ ul, ol {
 
 
 .container{
-	width: 90%;
+	width: 96%;
 	max-width: 1024px;
 	margin: 0 auto;
 	position: relative;
@@ -139,8 +139,45 @@ img.x3 {
 }
 
 
+/* 
+this is for the landscape images. 
+height is 37% of viewport width, approx the same as the others.
+max height is exactly the height of the others at max size of container.
+Objec-fit cover keeps the image in proportion showing only the middle. 
+*/
+.hide-overflow {
+	height: 37vw;
+	max-height: 424.067px;
+	object-fit: cover;
+}
+
+
+
 .nav__list {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+}
+
+
+
+
+
+
+@media (max-width: 700px) {
+	
+	img {
+		width: 100% !important;
+		margin: 1% 0;
+	}
+
+	.nav__list {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.home-grid {
+		display: flex;
+		flex-direction: column;
+	}
 }
